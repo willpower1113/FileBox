@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.willpower.filebox.widget.imageview.PhotoView
+        android:id="@+id/base_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/photo_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingRight="15dp"
+        android:background="@color/colorGrayDark500">
+
+        <com.willpower.touch.image.AppImageView
+            android:id="@+id/image_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_delete"/>
+
+        <com.willpower.touch.image.AppImageView
+            android:id="@+id/image_detail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_blur_on"/>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/detailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorGray100"
+            android:background="@drawable/shape_trans"/>
+</FrameLayout>

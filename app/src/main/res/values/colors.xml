@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#454545</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#24b1b3</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGray100">#eeffff</color>
+    <color name="colorGray200">#eeeeee</color>
+    <color name="colorGray300">#dddddd</color>
+    <color name="colorGray400">#cccccc</color>
+    <color name="colorGray500">#bbbbbb</color>
+    <color name="colorGray600">#aaaaaa</color>
+    <color name="colorGrayDark100">#111111</color>
+    <color name="colorGrayDark200">#222222</color>
+    <color name="colorGrayDark300">#333333</color>
+    <color name="colorGrayDark400">#444444</color>
+    <color name="colorGrayDark500">#555555</color>
+    <color name="colorGrayDark600">#666666</color>
+    <color name="colorGrayDark700">#777777</color>
+</resources>

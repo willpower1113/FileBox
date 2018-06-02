@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wall"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <com.willpower.filebox.widget.BaseButton
+            android:id="@+id/btn_album"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:drawableTop="@drawable/ic_album_no_check"
+            android:paddingTop="5dp"
+            android:layout_marginTop="15dp"
+            android:text="相册"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp"/>
+
+        <com.willpower.filebox.widget.BaseButton
+            android:id="@+id/btn_file"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:drawableTop="@drawable/ic_file_no_check"
+            android:paddingTop="5dp"
+            android:layout_marginTop="15dp"
+            android:text="文件"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/selector_oval_primary"
+            app:srcCompat="@drawable/ic_camera"
+            android:scaleType="center"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"/>
+
+        <com.willpower.filebox.widget.BaseButton
+            android:id="@+id/btn_music"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorTransparent"
+            android:drawableTop="@drawable/ic_music_no_check"
+            android:paddingTop="5dp"
+            android:layout_marginTop="15dp"
+            android:text="音乐"
+            android:textSize="10sp"/>
+
+        <com.willpower.filebox.widget.BaseButton
+            android:id="@+id/btn_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:textColor="@color/colorPrimary"
+            android:drawableTop="@drawable/ic_vedio_no_check"
+            android:paddingTop="5dp"
+            android:layout_marginTop="15dp"
+            android:text="视频"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</FrameLayout>
