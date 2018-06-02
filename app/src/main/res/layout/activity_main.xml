@@ -25,6 +25,8 @@
             android:paddingTop="5dp"
             android:layout_marginTop="15dp"
             android:text="相册"
+            app:btnNoShadow="true"
+            app:btnRippleColor="@color/colorGrayDark100"
             android:textColor="@color/colorPrimary"
             android:textSize="10sp"/>
 
@@ -38,6 +40,8 @@
             android:paddingTop="5dp"
             android:layout_marginTop="15dp"
             android:text="文件"
+            app:btnNoShadow="true"
+            app:btnRippleColor="@color/colorGrayDark100"
             android:textColor="@color/colorPrimary"
             android:textSize="10sp" />
 
@@ -46,7 +50,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginBottom="15dp"
-            android:background="@drawable/selector_oval_primary"
+            android:background="?android:attr/selectableItemBackground"
             app:srcCompat="@drawable/ic_camera"
             android:scaleType="center"
             android:backgroundTint="@color/colorAccent"
@@ -64,6 +68,8 @@
             android:paddingTop="5dp"
             android:layout_marginTop="15dp"
             android:text="音乐"
+            app:btnNoShadow="true"
+            app:btnRippleColor="@color/colorGrayDark100"
             android:textSize="10sp"/>
 
         <com.willpower.filebox.widget.BaseButton
@@ -77,6 +83,8 @@
             android:paddingTop="5dp"
             android:layout_marginTop="15dp"
             android:text="视频"
+            app:btnNoShadow="true"
+            app:btnRippleColor="@color/colorGrayDark100"
             android:textSize="10sp" />
     </LinearLayout>
 
